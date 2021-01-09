@@ -1,0 +1,23 @@
+{
+    "name": "mercermorning/meta",
+    "authors": [
+        {
+            "name": "MercerMorning",
+            "email": "hugopochta@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MercerMorning\\Meta\\": "src/"
+        },
+        "extra": {
+            "laravel": {
+                "providers": [ "MercerMorning\\Meta\\MetaServiceProvider"],
+                "aliases": {
+                    "Meta": "MercerMorning\\Meta\\Meta"
+                }
+            }
+        }
+    }
+}
